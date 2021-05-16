@@ -45,9 +45,6 @@ class Agent():
         self.critic_target = Critic(state_size, action_size, random_seed*4).to(device)
         self.critic_optimizer = optim.Adam(self.critic_local.parameters(), lr=lr_critic)
         
-        # Load the networks from previous simulation, if there are any
-        self.load_graphs()
-        
         # Noise process
         self.noise = OUNoise(action_size, random_seed)
         

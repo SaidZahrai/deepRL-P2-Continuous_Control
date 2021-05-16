@@ -1,7 +1,5 @@
 # Project 2 in Udacity Reinformcement Learning Nanodegree: Continuous Control
 
-# Project 2 in Udacity Reinformcement Learning Nanodegree: Continuous Control
-
 In this project, we are working with [Reacher](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Learning-Environment-Examples.md#reacher) environment and set up an agent that learns to control a two-armed robot to follow a target in the environemnt. This repository has the model and the code for training the agent as well as data for a trained agent.
 
 <figure class="image" style="display:inline-block">
@@ -27,8 +25,7 @@ The files in the repository are organized as follows:
 7. `videos`: Folder with a recorder result.
 8. `Report.html`: Detailed report
 9. `three_hidden_layers`: Folder containing model and agent with three hiden layers.
-
-## Distributed Training
+1. Solving the environment
 
 For this project, we will provide you with two separate versions of the Unity environment:
 
